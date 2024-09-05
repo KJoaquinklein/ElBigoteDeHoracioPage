@@ -4,42 +4,42 @@ const discografyArray = [
         id: 1,
         name: "Alunizar demos",
         year: "2018",
-        cover: "src/assets/alunizarDemos.jpg",
+        cover: 'alunizarDemos.jpg',
         link: null,
     },
     {
         id: 2,
         name: "Alunizar",
         year: "2021",
-        cover: "src/assets/alunizar.jpg",
+        cover: "alunizar.jpg",
         link: "https://open.spotify.com/intl-es/album/6xVw94oR5e3mdRxldnyBLg?si=JM3-H1iHSoScPWHgnOVfVA",
     },
     {
         id: 3,
         name: "Popotitos",
         year: "2022",
-        cover: "src/assets/popotitos.jpg",
+        cover: "popotitos.jpg",
         link: "https://open.spotify.com/intl-es/album/3r6EMSzFBu71859ulSf3Ra?si=SyAG7u3gSwKBo2tSXmKpqA",
     },
     {
         id: 4,
         name: "En Vivo Ccclf",
         year: "2022",
-        cover: "src/assets/vivoCCCLF.jpg",
+        cover: "vivoCCCLF.jpg",
         link: "https://open.spotify.com/intl-es/album/0GHC08czswhWdMAwd0sXaF?si=TS67PLjDQRaUmfgHBeXfdg",
     },
     {
         id: 5,
         name: "Amores Rotos",
         year: "2023",
-        cover: "src/assets/amoresRotos.jpg",
+        cover: "amoresRotos.jpg",
         link: "https://open.spotify.com/intl-es/album/778Wq86JDArtf24iqM6yQ7?si=4G7IIuwCQ5KefoBMeQqghA",
     },
     {
         id: 6,
         name: "Las Cosas Que Hoy Vendran",
         year: "2023",
-        cover: "src/assets/lasCosasQueHoyVendran.jpg",
+        cover: "lasCosasQueHoyVendran.jpg",
         link: "https://open.spotify.com/intl-es/album/3S9rWrFxUBLhVtHfKL3RVG?si=idpiQcBtSiCWOk7o4JtRpA",
     },
 ];
@@ -49,7 +49,7 @@ const discografyArray = [
     <h2 class="mt-10 font-subtitles text-4xl text-gray-900">Discografía</h2>
     <div class="flex flex-wrap justify-center w-[90%] xl:w-4/5">
         {discografyArray.map((disc) => (
-            <div class="my-5 w-80 flex flex-col items-center duration-200 hover:scale-105"  data-aos="fade-up">
+            <div class="my-5 w-80 flex flex-col items-center duration-200 hover:scale-105">
                 <a href={disc.link} target="_black">
                     <img class="w-60 sm:w-40 md:w-52 xl:w-60 shadow-lg shadow-gray-800 mb-2" src={disc.cover} />
                 </a>
